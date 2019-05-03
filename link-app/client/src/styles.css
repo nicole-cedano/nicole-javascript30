@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100vh;
+}
+
+.about{
+    grid-column: 1/2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    background-color: #FFE74F;
+    color: #FD6E8B;
+    padding: 20px;
+    min-width: 100%;
+}
+.about-me{
+    width: 100%;
+    padding: 5px;
+    font-size: 24px;
+}
+
+.portrait{
+    width: 250px;
+    margin-top: 10px;
+    border-radius: 150%;
+    border: solid 5px #FD6E8B;
+}
+
+.links {
+    grid-column: 2/5;
+    background-color: #FFF47D;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    font-size: 30px;
+
+}
+.links > a {
+    color: #FD6E8B;
+}
+
+@media only screen and (max-width: 768px){
+    .about{
+        grid-column: 1/5;
+    }
+    .links{
+        grid-column: 1/5;
+    }
+
+}

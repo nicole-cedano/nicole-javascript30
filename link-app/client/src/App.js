@@ -4,10 +4,12 @@ import Home from './components/Home.js'
 
 
 const App = () => {
-    <div>
-        <Home />
+    return (
+        <div>
+            <Home />
 
-    </div>
+        </div>
+    )
 }
 
 
