@@ -3,6 +3,7 @@ const secondHand = document.querySelector('.second-hand')
 const minHand = document.querySelector('.min-hand')
 const hourHand = document.querySelector('.hour-hand')
 
+
 function setDate(){
     const now = new Date()
 
@@ -19,7 +20,15 @@ function setDate(){
     const hourDegrees = ((hour / 12) * 360) + 90
     hourHand.style.transform = `rotate(${hourDegrees}deg)`
 
-    
+    //display date and time on DOM
+    const date = new Date()
+    const nowDate = date.toDateString()
+    const time = date.toLocaleTimeString()
+    document.getElementById("time").innerHTML = `${nowDate} ${time}`
 }
 
+
 setInterval(setDate, 1000);
+
+
+
