@@ -17,6 +17,9 @@ const Home = () => {
             <div className="links">
                 <a href="http://ncdrumkit.surge.sh/" target="_blank" rel="noopener noreferrer">Day 01: Drum Kit</a>
                 <a href="http://ncvanillajsclock.surge.sh/" target="_blank" rel="noopener noreferrer">Day 02: Clock</a>
+                <a href="http://nccssvariables.surge.sh/" target="_blank" rel="noopener noreferrer">Day 03: CSS  Variables</a>
+                <a href="http://ncarraycardio1.surge.sh/" target="_blank" rel="noopener noreferrer">Day 04: Array Cardio: 1</a>
+
             </div>
         </div>
     )
