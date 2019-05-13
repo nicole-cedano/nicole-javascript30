@@ -19,6 +19,7 @@ const Home = () => {
                 <a href="http://ncvanillajsclock.surge.sh/" target="_blank" rel="noopener noreferrer">Day 02: Clock</a>
                 <a href="http://nccssvariables.surge.sh/" target="_blank" rel="noopener noreferrer">Day 03: CSS  Variables</a>
                 <a href="http://ncarraycardio1.surge.sh/" target="_blank" rel="noopener noreferrer">Day 04: Array Cardio: 1</a>
+                <a href="http://ncflexpanelgallery.surge.sh/" target="_blank" rel="noopener noreferrer">Day 05: Flex Panel Gallery</a>
 
             </div>
         </div>
