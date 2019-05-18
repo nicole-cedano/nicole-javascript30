@@ -23,6 +23,8 @@ const Home = () => {
                 <a href="http://nctypeahead.surge.sh/" target="_blank" rel="noopener noreferrer">Day 06: Type Ahead</a>
                 <a href="http://ncarraycardio2.surge.sh/" target="_blank" rel="noopener noreferrer">Day 07: Array Cardio: 2</a>
                 <a href="http://nchtmlcanvas.surge.sh/" target="_blank" rel="noopener noreferrer">Day 08: HTML Canvas Fun</a>
+                <a href="http://ncdevtooltricks.surge.sh/" target="_blank" rel="noopener noreferrer">Day 09: Dev Tool Tricks</a>
+                <a href="http://nccheckmulitpleboxes.surge.sh/" target="_blank" rel="noopener noreferrer">Day 10: Check Mulitple Boxes</a>
           
             </div>
         </div>
