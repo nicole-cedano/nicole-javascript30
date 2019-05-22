@@ -15,4 +15,28 @@ function togglePlay(){
     video[method]()
 }
 
+function updateButton(){
+    const icon = this.paused ? '►' : '❚ ❚'
+    toggle.textContent = icon 
+}
+
+function skip(){
+    console.log(this.dataset.skip)
+    video.currentTime += parseFloat(this.dataset.skip)
+}
+function handelRangeUpdate(){
+    console.log(this.value)
+}
+
+
 // Hook up event listeners
+
+video.addEventListener('click', togglePlay)
+video.addEventListener('play', updateButton)
+video.addEventListener('pause', updateButton)
+
+
+toggle.addEventListener('click', togglePlay)
+skipButtons.forEach(button => button.addEventListener('click', skip))
+ranges.forEach(range => range.addEventListener('change', handelRangeUpdate))
+ranges.forEach(range => range.addEventListener('mousemove', handelRangeUpdate))
